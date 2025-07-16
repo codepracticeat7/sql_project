@@ -1,0 +1,8 @@
+USE HospitalReadmissionDB;
+GO
+SELECT COLUMN_NAME, DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'hospital_visits';
+SELECT TOP 5 * FROM hospital_visits;
+
+
